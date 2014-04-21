@@ -55,7 +55,7 @@ header {
     background-color: black;
     background-repeat: repeat;
     background-position: center center;
-    background-size: 40rem;
+    background-size: 30rem;
 }
 
 h1 {
@@ -153,6 +153,7 @@ h2 {
  footer {
     background-color: black;
     overflow: hidden;
+    padding: 1.5rem 5% 6rem;
 }
     
 footer p {
@@ -169,9 +170,10 @@ footer a {
 } 
 
 .nav-bottom ul { 
-        list-style-type: none;
-    margin: 5;
-    padding: 5;
+    list-style-type: none;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+    background-color: blue;
 }
 
 .nav-bottom a,
@@ -197,7 +199,12 @@ footer a {
 .bucket1 a:link,
 .bucket1 a:visited {
     float: left;
-    width: 90%;  
-    margin: 0 20% 1.5rem 0; 
+    width: 45%;  
+    margin: 0 10% 1.5rem 0; 
     padding: 0;
+}
+
+.bucket1 a:last-child {
+    margin: 0;
+    background-color: red
 }
