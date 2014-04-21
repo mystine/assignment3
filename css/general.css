@@ -45,6 +45,9 @@ header {
     padding: .5rem 2%;
     margin: .25rem auto;
 }
+.nav-top {
+    background-color: black;
+}
 
 .billboard { 
     overflow: hidden;   
@@ -63,6 +66,33 @@ h1 {
     letter-spacing: -.1rem; 
     text-transform: uppercase;      
     padding: .25rem 10%;
+}
+
+.nav-top ul {
+    margin: 0;
+    padding: 0;
+        text-align: center;     
+}
+
+.nav-top li {
+    margin: 0;
+    padding: 0;
+    display: inline; 
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+        display: inline-block;
+        margin: 0;
+        padding: 1.5rem 10%;
+        color: white;
+        font-size: 1.25em; 
+        text-decoration: none;
+}
+
+.selected { 
+    background-color: #666;
 }
 
 article {
@@ -93,9 +123,17 @@ figure {
     width: 80%;
 }  
 
+figure a,
+figure a:link, 
+figure a:visited {
+    font-size: .875rem;
+    color: black;
+    text-decoration: none;
+}
+
 figcaption {
     font-size: .75rem;
-    color: lightsalmon;
+    color: black;
     padding: .25rem 5%; 
 }
 
@@ -106,8 +144,9 @@ hr {
 
 h2 {
     font-family: Century Gothic, Arial, sans-serif;
-    font-size: 1rem;
-    color: teal;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: black;
     margin: 1.5rem auto .5rem;
 }    
     
@@ -127,4 +166,38 @@ footer p {
 footer a {
     font-family: Century Gothic, Arial, sans-serif;
     color: white;
-}   
+} 
+
+.nav-bottom ul { 
+        list-style-type: none;
+    margin: 5;
+    padding: 5;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    color: white;
+    text-decoration: none;
+    font-size: .875em;
+    line-height: 1.5rem;
+}
+
+.bucket1 { 
+    overflow:  hidden;
+    background-color: salmon;
+}
+
+.bucket1 figure {
+    margin: 0;
+    padding: 0;
+}
+
+.bucket1 a,
+.bucket1 a:link,
+.bucket1 a:visited {
+    float: left;
+    width: 90%;  
+    margin: 0 20% 1.5rem 0; 
+    padding: 0;
+}
