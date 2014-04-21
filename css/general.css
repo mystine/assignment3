@@ -151,9 +151,9 @@ h2 {
 }    
     
  footer {
-    background-color: black;
+    background-color: turquoise;
     overflow: hidden;
-    padding: 1.5rem 5% 6rem;
+    padding: 1.5rem 5% 1rem;
 }
     
 footer p {
@@ -173,7 +173,7 @@ footer a {
     list-style-type: none;
     margin: 0 0 1.5rem 0;
     padding: 0;
-    background-color: blue;
+    background-color: turquoise;
 }
 
 .nav-bottom a,
@@ -187,7 +187,7 @@ footer a {
 
 .bucket1 { 
     overflow:  hidden;
-    background-color: salmon;
+    background-color: turquoise;
 }
 
 .bucket1 figure {
@@ -199,12 +199,12 @@ footer a {
 .bucket1 a:link,
 .bucket1 a:visited {
     float: left;
-    width: 45%;  
-    margin: 0 10% 1.5rem 0; 
+    width: 15%;  
+    margin: 0 70% 1.5rem 0; 
     padding: 0;
 }
 
 .bucket1 a:last-child {
     margin: 0;
-    background-color: red
+    background-color: turquoise
 }
