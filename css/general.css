@@ -35,7 +35,7 @@ body {
 
 header {
     overflow: hidden; 
-    background-color: whitesmoke;
+    background-color: black;
     height: 5rem;
 }
 
@@ -43,7 +43,7 @@ header {
 .logo {
     height: 6rem;
     width: auto;
-    background-color: whitesmoke;
+    background-color: black;
     padding: .5rem 2%;
     margin: .25rem auto;
 }
@@ -149,6 +149,7 @@ h2 {
     font-weight: normal;
     color: black;
     margin: 1.5rem auto .5rem;
+    
 }    
     
  footer {
