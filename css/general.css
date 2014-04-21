@@ -93,14 +93,14 @@ h1 {
 }
 
 .selected { 
-    background-color: #666;
+    background-color: #FFF;
 }
 
 article {
     margin: 0;
     padding: .25rem 5%;
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: white;
 }
     
  p {
@@ -121,13 +121,13 @@ article p:first-child {
 
 figure {
     margin: 0 auto 1.5rem;
-    width: 80%;
+    width: 100%;
 }  
 
 figure a,
 figure a:link, 
 figure a:visited {
-    font-size: .875rem;
+    font-size: 1rem;
     color: black;
     text-decoration: none;
 }
