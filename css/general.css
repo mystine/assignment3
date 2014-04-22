@@ -110,6 +110,15 @@ article {
     margin: 0 auto 1.5;
     padding: .25rem 10%;
 }
+
+.dropcap:first-letter {
+    font-family: Century Gothic, Arial, sans-serif;
+    font-size: 4.8rem;
+    font-weight: regular;
+    float: left;
+    margin: 1.25rem .5rem .50rem 0;
+    color: turquoise;  
+}
     
 article p:first-child { 
     font-size: 1rem;
