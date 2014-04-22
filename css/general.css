@@ -25,7 +25,8 @@ html {
 img {
     width: 100%;
     display: block;
-    margin: 1rem;
+    margin: 0;
+    padding: 1rem 10%; 
 }
 
 body {
@@ -38,11 +39,10 @@ header {
     background-color: black;
 }
 
-
 .logo {
     display: block;
     width: 8rem;
-    background-color: black;
+    background-color: black;  
 }
 
 .billboard { 
@@ -52,6 +52,16 @@ header {
     background-repeat: repeat;
     background-position: center center;
     background-size: 30rem;
+}
+
+.apparel {
+    background-image: url(../images/sunflower-girl.jpg);
+    background-size: 30rem;
+}
+
+.company {
+    background-image: url(../images/summer.jpg);
+    background-size: 20rem;
 }
 
 
@@ -102,6 +112,14 @@ article {
     overflow: hidden;
     background-color: white;
 }
+
+.home {
+    padding: 0;
+}
+
+.home p {
+    padding: 0 5%;
+}
     
  p {
     font-size: 1rem;
@@ -128,6 +146,15 @@ article p:first-child {
     padding: .25rem 5%;   
 }
 
+h2 {
+    font-family: Century Gothic, Arial, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: black;
+    margin: 1.5rem auto .5rem;
+    text-align: center;    
+} 
 figure {
     margin: 0 auto 1.5rem;
     width: 100%;
@@ -151,22 +178,14 @@ figcaption {
 details {
     font-size: .75rem;
     color: crimson;
+    padding: .75rem 5%;
+    margin: 0 auto 1.5rem;
 }
 
 hr {
     border: 1px dashed black;
     margin: 1.5rem auto .5rem;
-}
-
-h2 {
-    font-family: Century Gothic, Arial, sans-serif;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: normal;
-    color: dimgrey;
-    margin: 1.5rem auto .5rem;
-    text-align: center;    
-}    
+} 
     
  footer {
     background-color: turquoise;
@@ -185,6 +204,7 @@ footer p {
 footer a {
     font-family: Century Gothic, Arial, sans-serif;
     color: white;
+
 } 
 
 .nav-bottom {
@@ -207,8 +227,8 @@ footer a {
 .nav-bottom a:link,
 .nav-bottom a:visited {
         display: inline-block;
-        margin: 0;
-        padding: 1.5rem 10%;
+        margin: 1rem;
+        padding: 0 10%;
         color: white;
         font-size: .75rem; 
         text-decoration: none;
@@ -216,21 +236,29 @@ footer a {
 
 .bucket1 { 
     overflow:  hidden;
-    background-color: turquoise;
+    background-color: turquoise; 
+    padding: .25rem 5%;
+    margin: 0;
 }
 
 .bucket1 figure {
     margin: 0;
-    padding: 0; 
+    padding: 0;
+}
+
+.figcaption {
+    font-size: .75rem;
+    color: white;
 }
 
 .bucket1 a,
 .bucket1 a:link,
 .bucket1 a:visited {
     float: left;
-    width: 10%;  
-    margin: 0 70% 1.5rem 0; 
-    padding: 0;
+    width: 45%;  
+    margin: 0 10% 1.5rem 0; 
+    padding: 0 10%;
+    
 }
 
 .bucket1 a:last-child {
