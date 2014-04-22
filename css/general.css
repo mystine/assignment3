@@ -137,16 +137,20 @@ figure a,
 figure a:link, 
 figure a:visited {
     font-size: 1rem;
-    color: black;
+    color: crimson;
     text-decoration: none;
 }
 
 figcaption {
-    font-size: .25rem;
+    font-size: 1rem;
     color: black;
     padding: .25rem 5%;
     text-align: center;
-    
+}
+
+details {
+    font-size: .75rem;
+    color: crimson;
 }
 
 hr {
@@ -156,11 +160,12 @@ hr {
 
 h2 {
     font-family: Century Gothic, Arial, sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
+    text-transform: uppercase;
     font-weight: normal;
-    color: black;
+    color: dimgrey;
     margin: 1.5rem auto .5rem;
-    
+    text-align: center;    
 }    
     
  footer {
@@ -216,7 +221,7 @@ footer a {
 
 .bucket1 figure {
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 
 .bucket1 a,
